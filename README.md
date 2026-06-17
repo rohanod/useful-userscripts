@@ -4,11 +4,11 @@ A small collection of Tampermonkey userscripts for sites I use often.
 
 ## Scripts
 
-| Script | Site | What it does |
-| --- | --- | --- |
-| [csTimer Auto Session Creator](cstimer-daily-session-creator.user.js) | `cstimer.net` | Adds `Ctrl+Shift+N` to create a new csTimer session named `dd.mm.yyyy {cube type}`. |
-| [Monkeytype Speed Range Indicator](monkeytype-speed-range-indicator.user.js) | `monkeytype.com` | Adds a finished-test stat showing the lowest and highest recorded speed from the test history. |
-| [Hooktheory TheoryTab MIDI Extractor](hooktheory-theorytab-midi-extractor.user.js) | `hooktheory.com/theorytab` | Adds an Export MIDI button that downloads the current public TheoryTab song as a multi-track `.mid` file. |
+| Script | Install | Site | What it does |
+| --- | --- | --- | --- |
+| [csTimer Auto Session Creator](cstimer-daily-session-creator.user.js) | [Install](https://raw.githubusercontent.com/rohanod/useful-userscripts/main/cstimer-daily-session-creator.user.js) | `cstimer.net` | Adds `Ctrl+Shift+N` to create a new csTimer session named `dd.mm.yyyy {cube type}`. |
+| [Monkeytype Speed Range Indicator](monkeytype-speed-range-indicator.user.js) | [Install](https://raw.githubusercontent.com/rohanod/useful-userscripts/main/monkeytype-speed-range-indicator.user.js) | `monkeytype.com` | Adds a finished-test stat showing the lowest and highest recorded speed from the test history. |
+| [Hooktheory TheoryTab MIDI Extractor](hooktheory-theorytab-midi-extractor.user.js) | [Install](https://raw.githubusercontent.com/rohanod/useful-userscripts/main/hooktheory-theorytab-midi-extractor.user.js) | `hooktheory.com/theorytab` | Adds an Export MIDI button that downloads the current public TheoryTab song as a multi-track `.mid` file. |
 
 ## Install
 
