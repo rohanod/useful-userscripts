@@ -4,14 +4,14 @@
 // @match        https://www.cstimer.net/*
 // @grant        none
 // @version      1.0
-// @description  Ctrl+Shift+N to create a new session and rename it to dd.mm.yyyy {cubetype}
+// @description  Ctrl+Shift+N to create a new session and rename it to yyyy-mm-dd {cubetype}
 // ==/UserScript==
 
 (function() {
     'use strict';
 
     /**
-     * Helper function to format today's date as dd.mm.yyyy
+     * Helper function to format today's date as yyyy-mm-dd (ISO 8601)
      * @returns {string} Formatted date string
      */
     function formatDate() {
@@ -19,7 +19,7 @@
         const day = String(today.getDate()).padStart(2, '0');
         const month = String(today.getMonth() + 1).padStart(2, '0');
         const year = today.getFullYear();
-        return `${day}.${month}.${year}`;
+        return `${year}-${month}-${day}`;
     }
 
     /**
